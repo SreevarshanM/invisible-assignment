@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { useRoutes } from "react-router-dom";
+import Themeroutes from "./routes/Router";
+import { useEffect, useState } from "react";
 
-function App() {
+import { KindeProvider } from "@kinde-oss/kinde-auth-react";
+const App = () => {
+  const routing = useRoutes(Themeroutes);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <KindeProvider
+      clientId="afbfaf2eb6c94604adb1869a072f04c2"
+      domain="https://sasefiedauth.kinde.com"
+      logoutUri="http://localhost:3000"
+      redirectUri="http://localhost:3000"
+    >
+      <div className="dark">{routing}</div>
+    </KindeProvider>
   );
-}
+};
 
 export default App;
