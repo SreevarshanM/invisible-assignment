@@ -1,5 +1,5 @@
 import { Col, Row } from "reactstrap";
-import SalesChart from "../components/dashboard/SalesChart";
+import StudentChart from "../components/dashboard/StudentChart";
 import Feeds from "../components/dashboard/Feeds";
 import ProjectTables from "../components/dashboard/StudentTable";
 import TopCards from "../components/dashboard/TopCards";
@@ -7,16 +7,7 @@ import { allStudentData } from "../Data/allStudentDataJson";
 import { useState, useEffect } from "react";
 import { useKindeAuth } from "@kinde-oss/kinde-auth-react";
 import Loader from "../layouts/loader/Loader";
-import {
-  Card,
-  CardImg,
-  CardText,
-  CardBody,
-  CardTitle,
-  CardSubtitle,
-  CardGroup,
-  Button,
-} from "reactstrap";
+import { Card, CardText, CardTitle, Button } from "reactstrap";
 
 const Starter = () => {
   const [data, setData] = useState([]);
@@ -58,7 +49,7 @@ const Starter = () => {
               {/***Sales & Feed***/}
               <Row>
                 <Col sm="6" lg="6" xl="7" xxl="8">
-                  <SalesChart />
+                  <StudentChart />
                 </Col>
                 <Col sm="6" lg="6" xl="5" xxl="4">
                   <Feeds />
