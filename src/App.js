@@ -10,8 +10,8 @@ const App = () => {
     <KindeProvider
       clientId="afbfaf2eb6c94604adb1869a072f04c2"
       domain="https://sasefiedauth.kinde.com"
-      logoutUri="http://localhost:3000"
-      redirectUri="http://localhost:3000"
+      logoutUri="https://invisible-assignment.vercel.app/"
+      redirectUri="https://invisible-assignment.vercel.app/"
     >
       <div className="dark">{routing}</div>
     </KindeProvider>
