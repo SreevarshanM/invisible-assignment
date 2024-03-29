@@ -15,10 +15,8 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 ## UI
-<img src="https://github.com/VimaleshCT/Task1/blob/main/src/Images/scrnshot1.png" alt="Alt text" title="Dasboard page-1">
-<img src="https://github.com/VimaleshCT/Task1/blob/main/src/Images/scrnshot2.png" alt="Alt text" title="Dasboard page-2">
-<img src="https://github.com/VimaleshCT/Task1/blob/main/src/Images/scrnshot3.png" alt="Alt text" title="Dasboard page-3">
-<img src="https://github.com/VimaleshCT/Task1/blob/main/src/Images/scenshot4.png" alt="Alt text" title="Dasboard page-4">
+<img src="https://github.com/SreevarshanM/invisible-assignment/blob/main/Invis-screenshot/Screenshot%20(137).png" alt="Alt text" title="Dasboard page-1">
+
 
 ### `npm run build`
 
