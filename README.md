@@ -6,9 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
 Open [https://invisible-assignment.vercel.app/](https://invisible-assignment.vercel.app/) to view it in your browser.
 
 The page will reload when you make changes.\
