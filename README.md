@@ -15,9 +15,6 @@ The Application Runs on **localhost:3000**
 Production URL :
 Open [https://invisible-assignment.vercel.app/](https://invisible-assignment.vercel.app/) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
 ## UI
 <img src="https://github.com/SreevarshanM/invisible-assignment/blob/main/Invis-screenshot/Screenshot%20(137).png" alt="Alt text" title="Dasboard page-1">
 <img src="https://github.com/SreevarshanM/invisible-assignment/blob/main/Invis-screenshot/Screenshot%20(138).png" alt="Alt text" title="Login page-1">
