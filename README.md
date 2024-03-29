@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Student Dashboard
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -14,10 +14,11 @@ Open [https://invisible-assignment.vercel.app/](https://invisible-assignment.ver
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## UI
+<img src="https://github.com/VimaleshCT/Task1/blob/main/src/Images/scrnshot1.png" alt="Alt text" title="Dasboard page-1">
+<img src="https://github.com/VimaleshCT/Task1/blob/main/src/Images/scrnshot2.png" alt="Alt text" title="Dasboard page-2">
+<img src="https://github.com/VimaleshCT/Task1/blob/main/src/Images/scrnshot3.png" alt="Alt text" title="Dasboard page-3">
+<img src="https://github.com/VimaleshCT/Task1/blob/main/src/Images/scenshot4.png" alt="Alt text" title="Dasboard page-4">
 
 ### `npm run build`
 
